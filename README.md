@@ -31,4 +31,4 @@ For playing ambience, call AudioManager.instance.PlayAmbience(), and pass it par
 Call AdjustMasterVolume(), AdjustSoundVolume(), AdjustMusicVolume(), or AdjustAmbienceVolume(), and
 pass a float for the new volume.
 #
-See the sample project ExampleScene for an example on setting up volume sliders.
+See the ExampleScene for an example on setting up volume sliders.
