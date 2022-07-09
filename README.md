@@ -1,5 +1,6 @@
-# AudioManager
+## AudioManager
  An Audio Manager singleton for playing and managing sound effects, music, and ambience in Unity.
+
 Setup:
 1. Add AudioManager.cs and AudioMixer.mixer to your project.
 2. Create an empty gameobject and attach AudioManager.cs to it.
