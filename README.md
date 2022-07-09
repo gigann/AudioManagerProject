@@ -19,16 +19,16 @@ Adding Audio Files:
 4. In the file field, drag and drop an audio file from your Assets to associate with the name.
 
 Playing Audio Files:
- For playing sound effects, call AudioManager.instance.PlaySound() and pass it an array of strings.
- Each string in the array contains a audio file name which will be randomly chosen and played.
+   For playing sound effects, call AudioManager.instance.PlaySound() and pass it an array of strings.
+   Each string in the array contains a audio file name which will be randomly chosen and played.
 
- For playing music, call AudioManager.instance.PlayMusic() and pass it true if you want the song to loop; false otherwise,
- and also an array of strings, in the same manner as sound effects.
+   For playing music, call AudioManager.instance.PlayMusic() and pass it true if you want the song to loop; false otherwise,
+   and also an array of strings, in the same manner as sound effects.
 
- For playing ambience, call AudioManager.instance.PlayAmbience(), and pass it params in the same way as .PlayMusic().
+   For playing ambience, call AudioManager.instance.PlayAmbience(), and pass it params in the same way as .PlayMusic().
 
 Adjusting Volume:
- Call AdjustMasterVolume(), AdjustSoundVolume(), AdjustMusicVolume(), or AdjustAmbienceVolume(), and
- pass a float for the new volume.
+   Call AdjustMasterVolume(), AdjustSoundVolume(), AdjustMusicVolume(), or AdjustAmbienceVolume(), and
+   pass a float for the new volume.
 
 See the sample project ExampleScene for an example on setting up volume sliders.
