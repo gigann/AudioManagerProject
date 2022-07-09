@@ -27,7 +27,7 @@ and also an array of strings, in the same manner as sound effects.
 ###
 For playing ambience, call AudioManager.instance.PlayAmbience(), and pass it params in the same way as .PlayMusic().
 ###
-Adjusting Volume:
+## Adjusting Volume:
 Call AdjustMasterVolume(), AdjustSoundVolume(), AdjustMusicVolume(), or AdjustAmbienceVolume(), and
 pass a float for the new volume.
 #
